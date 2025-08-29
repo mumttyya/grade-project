@@ -81,3 +81,4 @@ grademaster-cli/
 Mumtaza Mohamed
 
 ## License
+-This project is Licensed under MIT License.
