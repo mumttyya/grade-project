@@ -69,13 +69,13 @@ The application uses 3 related tables:
 grademaster-cli/
 ├── lib/
 │   ├── __init__.py
-│   ├── models.py      # SQLAlchemy models
-│   ├── database.py    # Database configuration
-│   ├── cli.py         # CLI interface
-│   └── helpers.py     # Helper functions
-├── main.py            # Application entry point
-├── Pipfile            # Dependencies
-└── README.md          # This file
+│   ├── models.py      
+│   ├── database.py     
+│   ├── cli.py          
+│   └── helpers.py     
+├── main.py            
+├── Pipfile            
+└── README.md       
 ```
 ## Author
 Mumtaza Mohamed
