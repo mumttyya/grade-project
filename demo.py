@@ -73,7 +73,7 @@ def create_sample_data():
     session.commit()
     session.close()
     
-    print("✅ Sample data created successfully!")
+    print(" Sample data created successfully!")
     print("\nSample Students:")
     print("1. Alice Johnson (alice@example.com) - Excellent student")
     print("2. Bob Smith (bob@example.com) - Good student") 
@@ -86,7 +86,7 @@ def create_sample_data():
     print("3. Chemistry (CHEM101) - 3 credits")
     print("4. Biology (BIOL101) - 4 credits")
     
-    print("\n🎓 Now run 'python main.py' to explore the application!")
+    print("\n Now run 'python main.py' to explore the application!")
 
 if __name__ == "__main__":
     create_sample_data()

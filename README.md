@@ -4,13 +4,13 @@ A simple command-line interface application for tracking student grades and perf
 
 ## Features
 
-- ✅ Add students and their details to database
-- ✅ Add subjects/courses and assign grades to students  
-- ✅ View student performance across all subjects
-- ✅ Update or delete student information and grades
-- ✅ Calculate student average grade and pass/fail status
-- ✅ View top-performing students based on grades
-- ✅ Persist all data in SQLite database
+  1. Add students and their details to database
+  2. Add subjects/courses and assign grades to students  
+  3. View student performance across all subjects
+  4. Update or delete student information and grades
+  5. Calculate student average grade and pass/fail status
+  6. View top-performing students based on grades
+  7. Persist all data in SQLite database
 
 ## Requirements
 
@@ -21,29 +21,28 @@ A simple command-line interface application for tracking student grades and perf
 ## Installation
 
 1. Install dependencies:
-```bash
+bash
 pipenv install
-```
 
 2. Activate virtual environment:
-```bash
+bash
 pipenv shell
-```
+
 
 ## Usage
 
 Run the application:
-```bash
+bash
 python main.py
-```
+
 
 ## Database Schema
 
 The application uses 3 related tables:
 
-1. **Students** - stores student information
-2. **Courses** - stores course/subject information  
-3. **Grades** - stores grades linking students to courses
+1. Students - stores student information
+2. Courses - stores course/subject information  
+3. Grades - stores grades linking students to courses
 
 ## Menu Options
 
@@ -60,9 +59,9 @@ The application uses 3 related tables:
 
 ## Data Structures Used
 
-- **Lists**: Used for storing collections of students, courses, and grades
-- **Dictionaries**: Used in model `to_dict()` methods for data serialization
-- **Tuples**: Used for sorting student averages in top performers feature
+- Lists: Used for storing collections of students, courses, and grades
+- Dictionaries: Used in model `to_dict()` methods for data serialization
+- Tuples: Used for sorting student averages in top performers feature
 
 ## Project Structure
 

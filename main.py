@@ -8,9 +8,9 @@ def main():
         app = GradeMasterCLI()
         app.run()
     except KeyboardInterrupt:
-        print("\n\n👋 Thanks for using GradeMaster!")
+        print("\n\n Thanks for using GradeMaster!")
     except Exception as e:
-        print(f"❌ An error occurred: {e}")
+        print(f" An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
