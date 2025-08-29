@@ -60,7 +60,7 @@ The application uses 3 related tables:
 ## Data Structures Used
 
 - Lists: Used for storing collections of students, courses, and grades
-- Dictionaries: Used in model `to_dict()` methods for data serialization
+- Dictionaries: Used in model to_dict() methods for data serialization
 - Tuples: Used for sorting student averages in top performers feature
 
 ## Project Structure
@@ -77,3 +77,7 @@ grademaster-cli/
 ├── Pipfile            # Dependencies
 └── README.md          # This file
 ```
+## Author
+Mumtaza Mohamed
+
+## License
